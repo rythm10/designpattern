@@ -1,4 +1,4 @@
-###The Service Aggregator Pattern
+###  The Service Aggregator Pattern
 
 In order to minimize service-to-service communications, we can apply Service Aggregator Pattern.
 
@@ -6,7 +6,7 @@ Basically, The Service aggregator design pattern is receives a request from the 
 
 By Service Aggregator Pattern implementation, we can reduces chattiness and communication overhead between the client and microservices.
 
-[pattern](docs/img/aggregator.png)
+![pattern](docs/img/aggregator.png)
 
 You can find here is AddItem Aggregator Microservice which basically orchestrates the AddItem into Shopping Cart operation. And it aggregates request to several back-end microservices which's are Product, Shopping Cart and Pricing.
 
